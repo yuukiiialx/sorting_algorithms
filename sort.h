@@ -22,6 +22,7 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void swap(int *x, int *y);
 size_t lomutoPartition(int *array, size_t start, size_t end, size_t size);
+int get_digit(long number, int digit)
 
 /* -------------- sorting function --------------*/
 void bubble_sort(int *array, size_t size);
@@ -34,4 +35,7 @@ void cocktail_sort_list(listint_t **list);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void radix_sort(int *array, size_t size)
+int radix_pass(int *array, ssize_t size, int digit, int *new_array)
+
 #endif
