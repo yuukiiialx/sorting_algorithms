@@ -1,1 +1,1 @@
-Hello, solving bubble
+Hello, solving bubbles
